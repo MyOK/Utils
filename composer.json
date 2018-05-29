@@ -1,0 +1,23 @@
+{
+    "name"       : "mlib/utils",
+    "description": "Various utility classes & functions",
+    "type"       : "library",
+    "require"    : {
+        "voku/portable-utf8": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1"
+    },
+    "license"    : "MIT",
+    "authors"    : [
+        {
+            "name" : "Test",
+            "email": "test@test.com"
+        }
+    ],
+    "autoload"   : {
+        "psr-4": {
+            "Mlib\\Utils\\": "src/"
+        }
+    }
+}
